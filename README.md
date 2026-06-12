@@ -1,17 +1,16 @@
-# 📝 AI-Powered Parallel Essay Evaluator
+# AI-Powered Parallel Essay Evaluator
 
 Welcome to the **AI-Powered Parallel Essay Evaluator**! This comprehensive application utilizes advanced AI and modern backend architecture to evaluate essays across multiple dimensions simultaneously. 
 
 By leveraging **LangGraph**, **FastAPI**, and **Streamlit**, this project demonstrates a highly efficient parallel agentic workflow to deliver fast, structured, and insightful feedback on written content.
 
+
+[Click here](https://xenithrider-agentic-ai-essay-evaluator-app-mlpemv.streamlit.app/) to preview the app.
+
 ---
 
-For more details, visit the [documentation](https://your-docs-link.com).
 
----
-
-
-## 📂 Project Structure
+## Project Structure
 
 ```text
 essay_evaluator/
@@ -27,7 +26,7 @@ essay_evaluator/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Installation
 
@@ -50,7 +49,7 @@ Create a `.env` file in the root directory and add your API key:
 ```env
 GOOGLE_API_KEY=your_gemini_api_key_here
 ```
-## 🌟 Key Features
+## Key Features
 
 - **Multi-Dimensional Analysis:** Evaluates essays on Language Quality, Depth of Analysis, and Clarity of Thought.
 - **Parallel Execution:** Employs LangGraph to run independent AI evaluation agents concurrently, drastically reducing processing time.
