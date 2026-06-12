@@ -234,7 +234,7 @@ if evaluate_btn:
         try:
             with st.spinner("Processing on the server..."):
                 # Call the FastAPI Backend
-                response = requests.post("http://localhost:8000/evaluate", json={"essay": essay_text})
+                response = requests.post("https://agentic-ai-essay-evaluator.onrender.com/evaluate", json={"essay": essay_text})
                 
             if response.status_code == 200:
                 result = response.json()
